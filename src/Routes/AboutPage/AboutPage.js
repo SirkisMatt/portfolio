@@ -5,22 +5,25 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import './AboutPage.css' 
 
 function AboutPage() {
+
+    const handleScroll = () => {
+        window.scroll(0,1000)
+    }
+
+
     return(
         <div className="about_container">
             <div className="wrapper">
                 <div className="about_landing_container">
-                <button className="arrow_down_btn"><FontAwesomeIcon className="arrow_down" icon={faChevronDown}/></button>
-                    <img className="about_photo" src={linkedin} alt="photo of Matt Sirkis" />
-                    <div className="about">
-                        {/* <h3>
-                            About Me...
-                        </h3> */}
-                        
-                    </div>
+                <button className="arrow_down_btn"  onClick={handleScroll}><FontAwesomeIcon className="arrow_down" icon={faChevronDown}/></button>
+                    <img className="about_photo" onClick={handleScroll} src={linkedin} alt="Matt Sirkis" />
                 </div>
             </div>
             <div className="wrapper">
                 <div className="about_desc">
+                    <h3>
+                        About Me...
+                    </h3>
                     <p>
                         As a former environmental educator I have gained a deep appreciation for 
                         the human impacts on our planet's natural systems. I am moving into the 
