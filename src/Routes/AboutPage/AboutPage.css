@@ -1,0 +1,48 @@
+.about_container {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.about_landing_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.about_photo{
+    width: 350px;
+    margin-bottom: 150px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.about {
+    text-align: center;
+}
+
+.arrow_down_btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.arrow_down_btn .arrow_down {
+    width: 40px;
+    height: 40px;
+}
+
+.about_desc {
+    width: 350px;
+    font-size: 1.2rem;
+    margin-bottom: 80px;
+}
