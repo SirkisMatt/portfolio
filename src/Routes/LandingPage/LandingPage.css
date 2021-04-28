@@ -1,0 +1,12 @@
+.landing_page {
+    position: absolute;
+    overflow: clip;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(17, 18, 23);
+    color: white;
+}
+
+.fire {
+    width: 500px;
+}
