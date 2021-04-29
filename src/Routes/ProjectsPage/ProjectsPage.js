@@ -43,7 +43,7 @@ function ProjectsPage() {
                     </p>
                 </div>
             </div>
-            <div className="project_container">
+            <div className="project_container" >
                 <img src={runSafe} alt="screen capture of app named run safe" />
                 <div className="project_description">
                     <h3>Run Safe</h3>

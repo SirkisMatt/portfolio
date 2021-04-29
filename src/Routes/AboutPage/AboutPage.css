@@ -19,7 +19,7 @@
 
 
 .about_photo{
-    width: 350px;
+    width: 300px;
     margin-bottom: 150px;
     margin-top: 40px;
     border-radius: 50%;
@@ -48,8 +48,21 @@
 }
 
 .about_desc {
-    min-width: 350px;
-    font-size: 1.2rem;
+    min-width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1rem;
     margin-bottom: 80px;
     max-width: 600px;
+}
+
+@media all and (min-width: 700px) {
+    .about_desc {
+        font-size: 1.3rem;
+    }
+
+    .about_photo{
+        width: 400px;
+    }
+
 }

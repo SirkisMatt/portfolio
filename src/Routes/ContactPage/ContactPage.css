@@ -15,8 +15,9 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 .email_container {
     align-items: center;
@@ -37,7 +38,7 @@
 
 
 .contact_container img {
-    width: 200px;
+    width: 120px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -52,15 +53,19 @@
 
 @media all and (min-width: 1024px) {
     .contact_container img {
-        width: 300px;
+        width: 200px;
         margin-right: 20px;
         margin-left: 20px;
+    }
+
+    .img_wrapper {
+        flex-direction: row;
+        margin-bottom: 60px;
     }
 }
 
 @media all and (min-width: 1024px) {
     .contact_container img {
-        width: 300px;
         margin-right: 40px;
         margin-left: 40px;
     }

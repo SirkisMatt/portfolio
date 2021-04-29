@@ -16,13 +16,14 @@
     flex-direction: column;
 }
 
+
 .project_container img {
-    width: 350px;
+    width: 300px;
     border-radius: 8px 8px 8px 8px;
 }
 
 .project_description {
-    width: 330px;
+    width: 300px;
 }
 .project_description p {
     width: 100%;

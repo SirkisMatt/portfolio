@@ -1,6 +1,5 @@
 import React from 'react'
-import fire from '../../Images/fire-rings.png'
-import night from '../../Images/Night-Sky.png'
+import fire from '../../Images/Fire-Circle.png'
 import './LandingPage.css' 
 
 function LandingPage() {
