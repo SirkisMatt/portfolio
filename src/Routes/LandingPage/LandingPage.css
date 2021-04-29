@@ -23,7 +23,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .title {
@@ -34,13 +34,38 @@
     width: 100%;
     line-height: 1.2;
     font-size: 2rem;
+    padding-left: 10px;
     font-family: 'Roboto Slab', serif;
 }
 
 
 .fire {
-    width: 250px;
-    margin-top: 70px;
+    width: 180px;
+}
+
+@media all and (min-width: 375px) {
+    
+    .header_wrapper {
+        padding-bottom: 150px;
+    }
+    
+    .title {
+        width: 300px;
+    }
+    
+    .title h1 {
+        width: 100%;
+        line-height: 1.2;
+        font-size: 2rem;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    
+    .fire {
+        width: 250px;
+        margin-top: 10px;
+    }
+    
 }
 
 @media all and (min-width: 700px) {

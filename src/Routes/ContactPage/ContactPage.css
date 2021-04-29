@@ -34,13 +34,25 @@
     font-size: 1.5rem;
     text-align: center;
     margin: auto;
+    margin-top: 40px;
 }
 
 
 .contact_container img {
-    width: 120px;
+    width: 100px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+@media all and (min-width: 375px) {
+
+    .contact_container img {
+        width: 120px;
+    }
+
+    .email_container p {
+        margin-top: 40px;
+    }
 }
 
 @media all and (min-width: 700px) {

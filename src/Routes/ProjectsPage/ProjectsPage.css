@@ -18,12 +18,15 @@
 
 
 .project_container img {
-    width: 300px;
+    width: 180px;
     border-radius: 8px 8px 8px 8px;
 }
 
 .project_description {
     width: 300px;
+}
+.project_description h3 {
+    font-size: 1rem;
 }
 .project_description p {
     font-size: .9rem;
@@ -36,6 +39,36 @@
 
 .project_description p a:hover {
     color: rgb(50, 139, 50); 
+}
+
+@media all and (min-width: 375px) {
+
+    .project_container img {
+        width: 300px;
+        border-radius: 8px 8px 8px 8px;
+    }
+    
+    .project_description {
+        width: 300px;
+    }
+
+    .project_description h3 {
+        font-size: 1.3rem;
+    }
+
+    .project_description p {
+        font-size: .9rem;
+        width: 100%;
+    }
+    
+    .project_description p a {
+        color: green; 
+    }
+    
+    .project_description p a:hover {
+        color: rgb(50, 139, 50); 
+    }
+
 }
 
 @media all and (min-width: 700px) {
